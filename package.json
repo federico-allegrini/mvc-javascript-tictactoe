@@ -1,0 +1,29 @@
+{
+  "name": "mvc-javascript-tictactoe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "watch": "webpack --watch --mode development",
+    "start": "webpack-dev-server --content-base dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/federico-allegrini/mvc-javascript-tictactoe.git"
+  },
+  "keywords": [],
+  "author": "Federico Allegrini",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/federico-allegrini/mvc-javascript-tictactoe/issues"
+  },
+  "homepage": "https://github.com/federico-allegrini/mvc-javascript-tictactoe#readme",
+  "devDependencies": {
+    "css-loader": "^3.4.2",
+    "style-loader": "^1.1.3",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  }
+}
